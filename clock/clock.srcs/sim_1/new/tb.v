@@ -28,12 +28,12 @@ wire    [3:0]   dig;
 wire    [7:0]   seg;
         
 top #(
-    .COUNT       (5        ),
-    .TIME_MS     (1        ),
-    .TIME_20MS   (5        ),
-    .TIME_S      (5        ),
-    .TIME_M      (5        ),
-    .TIME_H      (5        )    
+    .COUNT       (26'd5        ),
+    .TIME_MS     (16'd5        ),
+    .TIME_20MS   (20'd5        ),
+    .TIME_S      (26'd5        ),
+    .TIME_M      (6'd5        ),
+    .TIME_H      (5'd5        )    
     ) top_tb(
     .clk         (clk      ),
     .rst_n       (rst_n    ),

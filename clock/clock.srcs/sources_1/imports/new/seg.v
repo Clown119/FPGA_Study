@@ -43,13 +43,12 @@ module seg #(
     assign  dig4    =   seg_in[10:06]   /   10      %   10  ;
 
     always @(posedge clk or negedge rst_n) begin
-        if (!rst_n) begin
-            cnt_ms  <=  16'd0   ;
-        end
-        else if(cnt_ms == TIME_MS - 16'd1)
-            cnt_ms  <=  16'd0   ;
+        if (!rst_n)
+            cnt_ms    <=  16'd0   ;
+        else if (cnt_ms == TIME_MS - 16'd1)
+            cnt_ms    <=  16'd0   ;
         else
-            cnt_ms <=   cnt_ms  +   16'd1   ;
+            cnt_ms    <=  cnt_ms    +   16'd1   ;
     end
 
     always @(posedge clk or negedge rst_n) begin
@@ -68,7 +67,7 @@ module seg #(
             4'b1101    :   num <=  dig2    ;
             4'b1011    :   num <=  dig3    ;
             4'b0111    :   num <=  dig4    ;
-            default :   num <=  4'd0    ;
+            default :   num <=  4'd0       ;
         endcase
     end
 
