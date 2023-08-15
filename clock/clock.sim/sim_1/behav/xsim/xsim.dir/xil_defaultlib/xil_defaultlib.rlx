@@ -3,9 +3,9 @@
 May 27 2020
 20:09:33
 C:/Users/ClownK/Desktop/FPGA/clock/clock.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sim_1/new/tb.v,1692098274,verilog,,,,tb,,,,,,,,
+C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sim_1/new/tb.v,1692109154,verilog,,,,tb,,,,,,,,
 C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/imports/new/decode.v,1691992374,verilog,,C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/imports/new/key.v,,decode,,,,,,,,
 C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/imports/new/key.v,1692063594,verilog,,C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/imports/new/seg.v,,key,,,,,,,,
-C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/imports/new/seg.v,1692097480,verilog,,C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/new/time_ctrl.v,,seg,,,,,,,,
+C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/imports/new/seg.v,1692109072,verilog,,C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/new/time_ctrl.v,,seg,,,,,,,,
 C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/new/time_ctrl.v,1692086916,verilog,,C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/new/top.v,,time_ctrl,,,,,,,,
 C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sources_1/new/top.v,1692097775,verilog,,C:/Users/ClownK/Desktop/FPGA/clock/clock.srcs/sim_1/new/tb.v,,top,,,,,,,,

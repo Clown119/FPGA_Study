@@ -63,11 +63,11 @@ module seg #(
 
     always @(*) begin
         case (dig)
-            4'b1110    :   num <=  dig1    ;
-            4'b1101    :   num <=  dig2    ;
-            4'b1011    :   num <=  dig3    ;
-            4'b0111    :   num <=  dig4    ;
-            default :   num <=  4'd0       ;
+            4'b1110    :   num  =  dig1    ;
+            4'b1101    :   num  =  dig2    ;
+            4'b1011    :   num  =  dig3    ;
+            4'b0111    :   num  =  dig4    ;
+            default :   num =  4'd0        ;
         endcase
     end
 
